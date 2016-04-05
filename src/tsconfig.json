@@ -1,0 +1,75 @@
+{
+  "compileOnSave": true,
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": false,
+    "noImplicitAny": true,
+    "removeComments": false,
+    "noLib": false,
+    "preserveConstEnums": true,
+    "outDir": "../dist",
+    "suppressImplicitAnyIndexErrors": true,
+    "jsx": "react",
+    "experimentalDecorators": true,
+    "sourceMap": false,
+    "allowSyntheticDefaultImports": true
+  },
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2,
+    "convertTabsToSpaces": true,
+    "insertSpaceAfterCommaDelimiter": true,
+    "insertSpaceAfterSemicolonInForStatements": true,
+    "insertSpaceBeforeAndAfterBinaryOperators": true,
+    "insertSpaceAfterKeywordsInControlFlowStatements": true,
+    "insertSpaceAfterFunctionKeywordForAnonymousFunctions": false,
+    "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+    "placeOpenBraceOnNewLineForFunctions": false,
+    "placeOpenBraceOnNewLineForControlBlocks": false
+  },
+  "filesGlob": [
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "atom": {
+    "rewriteTsconfig": true
+  },
+  "files": [
+    "components/stories/index.ts",
+    "containers/progress_container.ts",
+    "containers/queue_container.ts",
+    "containers/queue_item_container.ts",
+    "containers/upload_container.ts",
+    "containers/upload_s3_container.ts",
+    "containers/upload_s3_semantic_container.ts",
+    "containers/upload_semantic_container.ts",
+    "index.ts",
+    "lib/queue_item_s3.ts",
+    "lib/queue_item.ts",
+    "lib/reactive_model.ts",
+    "lib/uploader_item.ts",
+    "lib/uploader_node.ts",
+    "lib/uploader_s3.ts",
+    "lib/uploader_ui.ts",
+    "lib/uploader.ts",
+    "typings/jquery/jquery.d.ts",
+    "typings/mantra/react-komposer.d.ts",
+    "typings/mantra/react-mounter.d.ts",
+    "typings/mantra/react-simple-di.d.ts",
+    "typings/react/react.d.ts",
+    "typings/slingshot/slingshot.d.ts",
+    "typings/storybook/storybook.d.ts",
+    "components/buttons_view.tsx",
+    "components/progress_view.tsx",
+    "components/queue_item_view.tsx",
+    "components/queue_view.tsx",
+    "components/stories/upload_bootstrap_stories.tsx",
+    "components/stories/upload_semantic_stories.tsx",
+    "components/upload_s3_view.tsx",
+    "components/upload_view.tsx"
+  ]
+}
