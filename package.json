@@ -1,0 +1,29 @@
+{
+  "name": "react-uploads",
+  "version": "1.0.0",
+  "description": "React UI for various upload possibilities (BlueImp / S3)",
+  "main": "dist/index.js",
+  "scripts": {
+    "storybook": "start-storybook -p 9001"
+  },
+  "keywords": [
+    "Upload",
+    "React"
+  ],
+  "author": "Tomi Trescak",
+  "license": "MIT",
+  "dependencies": {
+    "blueimp-file-upload": "^9.12.1",
+    "react": "^0.14.8",
+    "react-dom": "^0.14.8",
+    "react-komposer": "^1.7.1"
+  },
+  "devDependencies": {
+    "@kadira/storybook": "^1.1.0",
+    "file-loader": "^0.8.5",
+    "raw-loader": "^0.5.1",
+    "react-simple-di": "^1.1.0",
+    "semantic-ui-css": "^2.1.8",
+    "style-loader": "^0.13.1"
+  }
+}
