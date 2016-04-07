@@ -8,6 +8,7 @@ exports.composer = function (_a, onData) {
         i18n: uploader_ui_1.default.i18n,
         classes: uploader_ui_1.default.semanticUI,
         multiple: multiple,
+        callbacks: callbacks,
         submitData: submitData,
         fileTypes: fileTypes,
         autoStart: autoStart,

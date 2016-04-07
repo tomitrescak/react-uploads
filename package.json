@@ -1,6 +1,6 @@
 {
   "name": "react-uploads",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "React UI for various upload possibilities (BlueImp / S3)",
   "main": "dist/index.js",
   "scripts": {
