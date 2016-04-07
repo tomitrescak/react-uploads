@@ -17,7 +17,8 @@ var QueueItemS3 = (function (_super) {
     QueueItemS3.prototype.startUpload = function () {
         var _this = this;
         var self = this;
-        this.slingshot = new Slingshot.Upload(this.uploader.directive, this.uploader.callbacks.context);
+        var context = this.uploader.callbacks && this.uploader.callbacks.context ? this.uploader.callbacks.context() : null;
+        this.slingshot = new Slingshot.Upload(this.uploader.directive, context);
         tracker_1.Tracker.autorun(function () {
             var progress = _this.slingshot.progress();
             var calc = progress * self.file.size;
