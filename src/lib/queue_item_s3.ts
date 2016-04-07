@@ -16,7 +16,8 @@ export default class QueueItemS3 extends QueueItem {
 
   public startUpload() {
     const self = this;
-    this.slingshot = new Slingshot.Upload( (<S3Uploader>this.uploader).directive, this.uploader.callbacks.context );
+    const context = this.uploader.callbacks && this.uploader.callbacks.context ? this.uploader.callbacks.context() : null;
+    this.slingshot = new Slingshot.Upload( (<S3Uploader>this.uploader).directive, context);
 
     Tracker.autorun(() => {
       const progress = this.slingshot.progress();

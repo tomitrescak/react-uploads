@@ -20,6 +20,7 @@ export const composer: IKomposer = ({multiple, submitData, fileTypes, autoStart,
     classes: Ui.semanticUI,
     multiple,
     fileTypes,
+    callbacks,
     autoStart,
     hideQueue,
     directive

@@ -9,6 +9,7 @@ exports.composer = function (_a, onData) {
         classes: uploader_ui_1.default.semanticUI,
         multiple: multiple,
         fileTypes: fileTypes,
+        callbacks: callbacks,
         autoStart: autoStart,
         hideQueue: hideQueue,
         directive: directive
